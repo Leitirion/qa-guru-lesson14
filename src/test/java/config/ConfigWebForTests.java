@@ -6,7 +6,7 @@ import org.aeonbits.owner.Config;
 @Config.Sources({
         "file:src/test/resources/config/${conf}.config"
 })
-public interface WebConfig extends Config {
+public interface ConfigWebForTests extends Config {
 
     @Key("browser.name")
     String getBrowserName();

@@ -7,10 +7,10 @@ import org.aeonbits.owner.Config;
         "system:properties",
         "file:src/test/resources/config/creds.config"
 })
-public interface ApiConfig extends  Config{
+public interface ConfigApiForTests extends  Config{
 
-    @Config.Key("base.url")
-    String getBaseUrl();
+    @Config.Key("url")
+    String getUrl();
 
     @Config.Key("token")
     String getToken();

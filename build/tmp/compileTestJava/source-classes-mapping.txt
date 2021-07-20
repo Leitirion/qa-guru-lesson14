@@ -1,8 +1,8 @@
-tests/WebConfigTests.java
- tests.WebConfigTests
-tests/ApiConfigTests.java
- tests.ApiConfigTests
-config/WebConfig.java
- config.WebConfig
-config/ApiConfig.java
- config.ApiConfig
+config/ConfigWebForTests.java
+ config.ConfigWebForTests
+config/ConfigApiForTests.java
+ config.ConfigApiForTests
+tests/TestsWithWebConfig.java
+ tests.TestsWithWebConfig
+tests/TestsWithApiConfig.java
+ tests.TestsWithApiConfig

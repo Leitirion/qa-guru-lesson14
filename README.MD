@@ -1,21 +1,21 @@
-# **Tests for guru.qa lesson #14**
+# **Tests for guru.qa lesson #14 with web and api config (local or remote)**
 
-### How to run with terminal commands
-For web config
+### How to run with terminal commands on macOS:
+For ```web config``` wtih ```local.config file``` use command:
 ```bash
-./gradlew clean -Dconf=local test --tests "tests.WebConfigTests"
+./gradlew clean -Dconf=local test --tests "tests.TestsWithWebConfig"
 ```
-or
+For ```web config``` wtih ```remote.config file``` use command:
 ```bash
-./gradlew clean -Dconf=remote test --tests "tests.WebConfigTests"
-```
-
-For api config using system properties
-```bash
-./gradlew clean -Dbase.url=localhost -Dtoken=token23 test --tests "tests.ApiConfigTests"
+./gradlew clean -Dconf=remote test --tests "tests.TestsWithWebConfig"
 ```
 
-For api config using file
+For ```api config``` using system properties:
 ```bash
-./gradlew clean  test --tests "tests.ApiConfigTests"
+./gradlew clean -Durl=localhost -Dtoken=token2 test --tests "tests.TestsWithApiConfig"
+```
+
+For ```api config``` using file:
+```bash
+./gradlew clean  test --tests "tests.TestsWithApiConfig"
 ```
