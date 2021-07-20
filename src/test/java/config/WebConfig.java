@@ -4,7 +4,7 @@ import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "file:src/test/resources/config/web/${conf}.config"
+        "file:src/test/resources/config/${conf}.config"
 })
 public interface WebConfig extends Config {
 
