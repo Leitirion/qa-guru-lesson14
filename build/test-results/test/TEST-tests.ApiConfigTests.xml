@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.ApiConfigTests" tests="2" skipped="1" failures="0" errors="0" timestamp="2021-07-20T13:01:40" hostname="MBP-Ilnar.Dlink" time="0.044">
+<testsuite name="tests.ApiConfigTests" tests="2" skipped="1" failures="0" errors="0" timestamp="2021-07-20T13:10:11" hostname="MBP-Ilnar.Dlink" time="0.054">
   <properties/>
-  <testcase name="getTokenFromSystemProperties()" classname="tests.ApiConfigTests" time="0.0">
+  <testcase name="getTokenFromSystemProperties()" classname="tests.ApiConfigTests" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="getTokenFromFile()" classname="tests.ApiConfigTests" time="0.037"/>
+  <testcase name="getTokenFromFile()" classname="tests.ApiConfigTests" time="0.046"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
