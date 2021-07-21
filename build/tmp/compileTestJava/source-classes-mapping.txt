@@ -1,8 +1,0 @@
-config/ConfigWebForTests.java
- config.ConfigWebForTests
-config/ConfigApiForTests.java
- config.ConfigApiForTests
-tests/TestsWithWebConfig.java
- tests.TestsWithWebConfig
-tests/TestsWithApiConfig.java
- tests.TestsWithApiConfig
